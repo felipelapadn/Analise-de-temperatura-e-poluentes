@@ -6,6 +6,12 @@ O objetivo deste trabalho é estimar um modelo estilo _Random Forest Regressor_,
 
 Os melhores resultados foram obtidos com o modelo treinado a partir dos parâmetros padrões, ou seja, as buscas por parâmetros com o _GridSearchCV_ e _RandomSearchCV_ em ambos os espaços não geraram um bom resultado, o motivo dessa situação provavelmente se deve ao fato do espaço de parâmetros não ser escolhido de uma forma estratégica. As avaliações do modelo _Random Forest Regressor_ são apresentados na Tabela 1, o gráfico de dispersão, representado na Figura 1, ilustra os resultados das predições de acordo com reta de regressão, nesse gráfico, quanto mais ajustados forem os círculos a reta traçada, melhor será o desempenho do modelo. Já na Figura 2, é possível observar que os dados gerados pelo modelo, linha de cor ciano, apresentaram instabilidades em relação aos dados reais, linha tracejada, ou seja, em alguns momentos o modelo realizou a previsão de picos que nunca existiram. 
 
+Figura 1: Resultados das predições conforme os dados reais apresentados para o modelo com a reta de regressão.
+<img src="Figuras/results_modelo_norm_scat.png">
+
+Figura 2: Resultados das predições conforme os dados reais apresentados para o modelo.
+<img src="Figuras/results_modelo_norm.png">
+
 Tabela 1: Valores as métricas geradas com base no modelo _Random Forest Regressor_.
 | **Métrica de avaliação**| **Resultado** |
 | --- | --- |
