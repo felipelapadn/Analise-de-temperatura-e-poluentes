@@ -1,4 +1,4 @@
-# Análise de temperatura e poluentes
+# Predição de Temperatura Média a partir de Poluentes com Random Forest
 
 O objetivo deste trabalho é estimar um modelo estilo _Random Forest Regressor_, com base no algoritmo de Florestas Aleatórias e relacionado à temperatura média. A elaboração do trabalho é baseada em três etapas, a primeira voltada à aquisição dos dados, a segunda etapa é referente à limpeza dos dados e a terceira é sobre o modelo, essa etapa apresenta alguns pontos importantes a serem observados, já que ocorreu a escolha das variáveis para construir o modelo e a sua validação. Apesar das buscas por parâmetros com o _GridSearchCV_ e _RandomSearchCV_ em dois espaços, os melhores resultados foram obtidos com o modelo _Random Forest Regressor_ treinado a partir dos parâmetros padrões, que alcançou um _score_ de 98,07%, um MSE de 0,0063 e um RMSE muito baixo.
 
